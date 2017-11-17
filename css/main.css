@@ -1,0 +1,24 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+ section {
+   width: 100%;
+   height: 50px;
+   position: fixed;
+   z-index: 1000;
+   background: #1DA1F2;
+ }
+ .box-general {
+   width: 100%;
+   height: 50px;
+   outline: 1px solid red;
+   top: 100px;
+}
+.box {
+  outline: 1px solid blue;
+  width: 50%;
+}
+.profile {
+  width: 100%;
+}
