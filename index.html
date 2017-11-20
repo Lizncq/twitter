@@ -3,23 +3,30 @@
   <head>
     <meta charset="utf-8">
     <title>twitter</title>
+    <link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" href="assets/favicon.ico">
   </head>
   <body>
-    <section>
-      <div class="barra">twitter</div>
-    </section>
     <header>
-      <div class="box-general">
-        <div class="profile">
-          <div class="box box-1"></div>
-          <div class="box box-2"></div>
-        </div>
-        <div class="status">
-          <button type="submit" name="button">tweet</button>
-        </div>
-      </div>
+      <div class="banner"><span class="text">twitter</span></div>
     </header>
+    <main class="container">
+      <div class="box-general">
+        <div class="profile"><p>Hola, soy liz <br>front developer jr.</p></div>
+            <!--<div class="box box-1"></div><div class="box box-2"></div>-->
+           <form class="status">
+              <textarea id="tweet-area" placeholder="¿Qué estás pasando?" autofocus></textarea>
+              <div class="footer-form">
+                <input id='tweet-btn' type="submit" value="tweet" disabled>
+                <span id="count">140</span>
+              </div>
+           </form>
+        </div>
+    <section>
+      <div id="messages"></div>
+    </section>
+  </main>
     <script src="js/app.js" charset="utf-8"></script>
   </body>
 </html>
